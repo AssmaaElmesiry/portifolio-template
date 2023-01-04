@@ -91,18 +91,18 @@
 </template>
 <script>
 export default {
-    /* eslint-disable */
 
-data: function () {
-    return {
-        title: "Experience",
-        isShow: false,
-        icon : "chevron-double-down",
-    };
-},
+    data: function () {
+        return {
+            title: "Experience",
+            isShow: false,
+            icon : "chevron-double-down",
+        };
+    },
     name: 'Experience',
 
 }
+
 </script>
 <style lang="sass">
 .toggleUpDown
