@@ -1,0 +1,62 @@
+body {
+  font-family: "Manrope-Regular";
+  font-family: "Manrope-Bold";
+}
+
+.bm-overlay {
+  background-color: #fff;
+}
+
+ul {
+  list-style: none;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.Title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+}
+
+.Title::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: #707070;
+  color: #707070;
+  top: 49%;
+  z-index: 0;
+}
+
+.Title h2 {
+  padding: 20px 70px;
+  border: 2px solid #06CB79;
+  font-size: 24px;
+  font-family: "Manrope-Bold";
+  background-color: #fff;
+  z-index: 1;
+}
+
+input {
+  outline: none;
+}
+
+@media (max-width: 767px) {
+  .Blog, .about, .my-Contact, .my-Skill, .my-Project, .my-Experience, .post-box {
+    padding-top: 88px;
+  }
+  .Blog, .about, .my-Contact, .my-Skill, .my-Project, .my-Experience, .post-box {
+    height: 100%;
+  }
+}
+/*# sourceMappingURL=main.css.map */
