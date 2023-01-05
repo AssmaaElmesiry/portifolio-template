@@ -206,7 +206,7 @@ export default {
             ul
                 display: flex
                 flex-direction: column
-                align-items: end
+                align-items: flex-end
                 li
                     margin-bottom: 7px !important
                     >div

@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <AppHeader />
-    <router-view />
+    <router-view id="page-wrap"/>
   </div>
 </template>
 
